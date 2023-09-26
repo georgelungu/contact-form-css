@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#screen{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(62,32,146,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(210,194,231,255);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 800px;
+}
+
+#about-me{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 700px;
+    width: 400px;
+    gap: 45px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+#my-header{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#my-title{
+    color: rgba(220,150,164,255);
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.01cm;
+}
+
+#my-details{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#my-mail-block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#my-mail-title{
+    color: rgba(220,150,164,255);
+    font-weight: 700;
+    letter-spacing: 0.05cm;
+}
+
+#my-mail{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#my-phone-block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#my-phone-title{
+    color: rgba(220,150,164,255);
+    font-weight: 700;
+    letter-spacing: 0.05cm;
+}
+
+#my-number{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.02cm;
+}
+
+#my-address-block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#my-address-title{
+    color: rgba(220,150,164,255);
+    font-weight: 700;
+    letter-spacing: 0.05cm;
+}
+
+#my-address{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.01cm;
+}
+
+#about-you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    background-color: white;
+    border-radius: 5%;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(45, 45, 45);
+    gap: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+input[type=text]{
+    border-radius: 5px;
+}
+
+#form-title{
+    font-weight: 700;
+    position: relative;
+    right: 60px;
+    font-size: 23px;
+}
+
+#your-name-block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+#your-name-title{
+    font-weight: 700;
+    letter-spacing: 0.001cm;
+}
+
+#your-name-input{
+    border: 2px solid rgb(224, 233, 233);
+    width: 250px;
+    height: 35px;
+}
+
+#your-name-input::placeholder{
+    position: relative;
+    left:10px;
+    color: rgb(144, 131, 131);
+    letter-spacing: 0.01cm;
+}
+
+#your-mail-block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    /* bottom: 25px; */
+}
+
+#your-mail-title{
+    font-weight: 700;
+    letter-spacing: 0.001cm;
+}
+
+#your-mail-input{
+    border: 2px solid rgb(224, 233, 233);
+    width: 250px;
+    height: 35px;
+}
+
+#your-mail-input::placeholder{
+    position: relative;
+    left:10px;
+    color: rgb(144, 131, 131);
+}
+
+#your-message-block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    /* bottom: 45px; */
+}
+
+#your-message-title{
+    font-weight: 700;
+    letter-spacing: 0.001cm;
+}
+
+#your-message-input{
+    border: 2px solid rgb(224, 233, 233);
+    width: 250px;
+    height: 80px;
+}
+
+#your-message-input::placeholder{
+    position: relative;
+    bottom: 20px;
+    left:15px;
+    color: rgb(144, 131, 131);
+}
+
+#send-button{
+    border: 2px solid rgba(250,147,157,255);
+    background-color: rgba(250,147,157,255);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    width: 150px;
+    position: relative;
+    right: 53px;
+}
