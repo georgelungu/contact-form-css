@@ -1,10 +1,51 @@
-# Homework CSS - contact form
-Select a contact form mockup from [dribbble](http://dribbble.com)
 
-Using HTML, CSS try to reproduce the mockup.
-Examples:
-![image](https://user-images.githubusercontent.com/61597725/226449824-942ebebe-4b19-4109-ba9e-42bc67e0642b.png)
-![image](https://user-images.githubusercontent.com/61597725/226449857-8eda3268-6830-491a-8fa8-8d679e076066.png)
-![image](https://user-images.githubusercontent.com/61597725/226449876-22236026-0a36-447d-934a-780434379e44.png)
-![image](https://user-images.githubusercontent.com/61597725/226449910-65938853-647a-4974-9540-490ee980c600.png)
-![image](https://user-images.githubusercontent.com/61597725/226449948-64a2ed8e-45d3-46c8-be8f-812ab4aef4d4.png)
+# CONTACT FORM
+
+A small contact form created as an exercise to deepen my understanding of CSS Flexbox.
+
+
+## Screenshots
+
+![Page Screenshot](https://images4.imagebam.com/35/f6/77/MEPME7J_o.png)
+
+
+## Demo
+
+[See the page here](https://contact-form-css.vercel.app/)
+
+
+## Features
+
+- Responsive Page
+
+
+
+## Installation
+
+1. Prerequisites:
+
+    Before you begin, ensure that you have the following software installed on your system:
+
+Git: You can download and install [Git](https://git-scm.com/), Node.js and npm: You can download and install [Node.js](https://nodejs.org/) which includes npm.
+
+2. Clone the Repository
+
+    Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Then, use the following command to clone your repository:
+
+```bash
+  git clone git@github.com:georgelungu/contact-form-css.git
+```
+
+3. Navigate to the Project Directory:
+
+    Change your current directory to the newly cloned project's directory: 
+    
+```bash
+  cd <repository_directory>
+```
+
+Replace <repository_directory> with the name of the directory created when you cloned the repository.
+
+4. Start the Project:
+
+    Once you are in the correct directory, you can start your project by running the Live Server:
